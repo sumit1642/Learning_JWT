@@ -6,7 +6,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "nodemon index.mjs",
-		"start": "NODE_ENV=production node index.mjs"
+		"start": "node index.mjs"
 	},
 	"keywords": [
 		"jwt",
@@ -19,7 +19,6 @@
 	"license": "MIT",
 	"dependencies": {
 		"@prisma/client": "^6.8.2",
-		"bcrypt": "^6.0.0",
 		"bcryptjs": "^3.0.2",
 		"cookie-parser": "^1.4.7",
 		"cors": "^2.8.5",
