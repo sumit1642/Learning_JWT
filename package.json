@@ -6,7 +6,8 @@
 	"type": "module",
 	"scripts": {
 		"dev": "nodemon index.mjs",
-		"start": "node index.mjs"
+		"start": "node index.mjs",
+		"postinstall": "prisma generate"
 	},
 	"keywords": [
 		"jwt",
