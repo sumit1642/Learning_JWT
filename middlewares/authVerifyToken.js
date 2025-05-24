@@ -1,4 +1,4 @@
-// middlewares/authMiddleware.js
+// middlewares/authVerifyToken.js
 import jwt from "jsonwebtoken";
 import prisma from "../db.js"; // shared Prisma client
 
