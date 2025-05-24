@@ -15,7 +15,7 @@
 		"api",
 		"nodejs"
 	],
-	"author": "Your Name",
+	"author": "Sumit Yadav",
 	"license": "MIT",
 	"dependencies": {
 		"@prisma/client": "^6.8.2",
